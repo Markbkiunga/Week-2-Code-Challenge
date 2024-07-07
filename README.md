@@ -1,34 +1,48 @@
 # Week-2-Code-Challenge
 
-## Code Challenge: Interactive Shopping List
+### Details
+
+#### Author: <a href="https://github.com/Markbkiunga">Mark Brian</a>
+
+#### Link to Website: https://markbkiunga.github.io/Week-2-Code-Challenge/
+
+#### Link to GitHub repository: https://github.com/Markbkiunga/Week-2-Code-Challenge
 
 ### Objective:
 
-Develop a webpage with a shopping list. Users can add items to the list, mark items as purchased, and clear the list.
+Develop a webpage with an interactive shopping list.
 
 ### Requirements:
 
-Array: Maintain a JavaScript array to store shopping list items.
+For this code challenge I am required to utilize the knowledge I've garnered this week to create an interactive shopping list website.I should:
 
-### DOM Manipulation:
+1. Create an HTML structure with an input field for adding items, a list container to display items, and buttons for "Add", "Mark Purchased", and "Clear List".
+2. Use JavaScript to dynamically add new items to the list container when the user clicks the "Add" button. (The new items do not have to be persisted once the page refreshes)
+3. Update the list item visually to indicate purchased items (e.g., strike-through text, different background color).
 
-Create an HTML structure with an input field for adding items, a list container to display items, and buttons for "Add", "Mark Purchased", and "Clear List".
-Use JavaScript to dynamically add new items to the list container when the user clicks the "Add" button. (The new items do not have to be persisted once the page refreshes)
-Update the list item visually to indicate purchased items (e.g., strike-through text, different background color).
+#### Events required
 
-### Event Handling:
+1. Attach event listeners to the "Add" button to capture user input and add items to the list.
+2. Attach event listeners to the list of items to allow users to mark them as purchased.
+3. Attach an event listener to the "Clear List" button to remove all items from the list.
 
-Attach event listeners to the "Add" button to capture user input and add items to the list.
-Attach event listeners to the list of items to allow users to mark them as purchased.
-Attach an event listener to the "Clear List" button to remove all items from the list.
+### Setup:
 
-## User Manual
+#### Pre-requisites
+
+In order to use this repository you will need the following:
+
+- Operating System (Windows 10+, Linux 3.8+, or MacOS X 10.7+)
+- RAM >= 4GB
+- Free Space >= 2GB
+
+### User Manual
 
 The **Shopping List Creator** takes in items and displays the items entered which can then be manipulated in various ways.
 
 ### Entering items
 
-1. Open Week-2-Code-Challenge folder on your browser.
+1. Open the website link provided at the beginning of this file on your browser.
 2. Type the item into the provided input field and click the _Add Item_ button or press ENTER(WINDOWS)/RETURN(MAC OS).
 3. Add as many items as you wish.
 
